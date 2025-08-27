@@ -2,5 +2,5 @@ services:
   - name: uv-static
     type: web
     runtime: static
-    publish_path: ./
+    static_root: ./
     branch: main
